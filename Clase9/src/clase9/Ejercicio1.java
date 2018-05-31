@@ -16,10 +16,10 @@ public class Ejercicio1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int array[] = new int[4];
-        array[0]= 10;
-        for (int i = 0; i < array.length; i++) {
-            System.out.println(array[i]);
+        int array[] = new int[4];//Declaracion de array
+        array[0]= 10; //Dafinicion de array en la posicion 0
+        for (int i = 0; i < array.length; i++) { //Cilo for para recorrer el array
+            System.out.println(array[i]); //Presentacion del array
         }
     }
     
