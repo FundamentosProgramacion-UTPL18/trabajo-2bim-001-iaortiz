@@ -9,13 +9,18 @@ package clase9;
  *
  * @author Israel
  */
-public class Clase9 {
+public class Ejercicio1 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int array[] = new int[4];
+        array[0]= 10;
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
     }
     
 }
