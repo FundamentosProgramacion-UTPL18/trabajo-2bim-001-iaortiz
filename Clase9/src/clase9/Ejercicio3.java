@@ -27,6 +27,7 @@ public class Ejercicio3 {
         for (int i = 1; i < promedios.length; i++) { // Ciclo for para presentar
 
             System.out.printf("Estudiante %d:\t%.2f\t%.2f\t%.2f\n", i, calificacion_1[i], calificacion_2[i], promedios[i]); // Presentación
+            
         }
     }
 }
